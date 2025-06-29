@@ -119,3 +119,31 @@ footer {
 .scroll-container .badge-card:nth-child(7) { animation-delay: 0.7s; }
 .scroll-container .badge-card:nth-child(8) { animation-delay: 0.8s; }
 .scroll-container .badge-card:nth-child(9) { animation-delay: 0.9s; }
+
+.badge-card {
+  flex: 0 0 250px;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+  scroll-snap-align: start;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideIn 0.6s forwards;
+}
+
+.badge-card h3 {
+  color: #bb86fc;
+  margin: 0 0 8px 0;
+  font-size: 1.1em;
+}
+
+.badge-card p {
+  font-size: 0.9em;
+  color: #cccccc;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #6a0dad;
+}
