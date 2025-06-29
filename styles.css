@@ -1,43 +1,78 @@
+/* Import a modern Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   background-color: #000000; /* black background */
-  color: #f0f0f0; /* light text for contrast */
+  color: #e0e0e0; /* softer light text */
+  line-height: 1.6;
 }
 
+/* Header with gradient */
 header {
-  background-color: #6a0dad; /* purple header */
+  background: linear-gradient(135deg, #6a0dad, #4b0082);
   color: white;
-  padding: 40px 20px;
+  padding: 50px 20px;
   text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.7);
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #dddddd;
 }
 
 main {
-  max-width: 800px;
-  margin: 20px auto;
+  max-width: 900px;
+  margin: 40px auto;
   padding: 0 20px;
 }
 
 section {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  background-color: #111111;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+  transition: transform 0.2s ease;
+}
+
+section:hover {
+  transform: translateY(-3px);
 }
 
 h2 {
-  color: #bb86fc; /* lighter purple for headings */
+  color: #bb86fc; /* lighter purple headings */
+  margin-top: 0;
 }
 
 a {
-  color: #bb86fc; /* link color */
+  color: #bb86fc;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 a:hover {
+  color: #d6b3ff; /* lighter on hover */
   text-decoration: underline;
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #111111; /* dark footer */
+  background-color: #111111;
   color: #aaaaaa;
+  font-size: 0.9em;
+  margin-top: 40px;
+}
+
+/* Smooth transitions for everything */
+* {
+  transition: all 0.2s ease;
 }
