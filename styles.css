@@ -18,13 +18,23 @@ header {
 header h1 {
   font-size: 2.8em;
   margin: 0;
+  color: #ffffff; /* pure white name */
 }
+
 
 header p {
   font-size: 1.2em;
-  color: #dddddd;
+  color: #bb86fc; /* purple subtitle */
   margin-top: 8px;
 }
+.purple {
+  color: #bb86fc;
+}
+
+.white {
+  color: #ffffff;
+}
+
 
 main {
   max-width: 900px;
