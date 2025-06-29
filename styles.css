@@ -1,31 +1,29 @@
-/* Import a modern Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+/* Use Poppins font */
 body {
   margin: 0;
-  font-family: 'Roboto', Arial, sans-serif;
-  background-color: #000000; /* black background */
-  color: #e0e0e0; /* softer light text */
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #000000;
+  color: #f0f0f0;
   line-height: 1.6;
 }
 
-/* Header with gradient */
 header {
   background: linear-gradient(135deg, #6a0dad, #4b0082);
   color: white;
-  padding: 50px 20px;
   text-align: center;
+  padding: 60px 20px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.7);
 }
 
 header h1 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
+  font-size: 2.8em;
+  margin: 0;
 }
 
 header p {
   font-size: 1.2em;
   color: #dddddd;
+  margin-top: 8px;
 }
 
 main {
@@ -40,27 +38,19 @@ section {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.6);
-  transition: transform 0.2s ease;
-}
-
-section:hover {
-  transform: translateY(-3px);
 }
 
 h2 {
-  color: #bb86fc; /* lighter purple headings */
+  color: #bb86fc;
   margin-top: 0;
 }
 
-a {
-  color: #bb86fc;
-  text-decoration: none;
-  transition: color 0.2s ease;
+ul {
+  padding-left: 20px;
 }
 
-a:hover {
-  color: #d6b3ff; /* lighter on hover */
-  text-decoration: underline;
+li {
+  margin-bottom: 8px;
 }
 
 footer {
@@ -70,9 +60,4 @@ footer {
   color: #aaaaaa;
   font-size: 0.9em;
   margin-top: 40px;
-}
-
-/* Smooth transitions for everything */
-* {
-  transition: all 0.2s ease;
 }
