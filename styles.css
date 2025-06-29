@@ -1,12 +1,12 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #000000; /* black background */
+  color: #f0f0f0; /* light text for contrast */
 }
 
 header {
-  background-color: #6a0dad; /* purple */
+  background-color: #6a0dad; /* purple header */
   color: white;
   padding: 40px 20px;
   text-align: center;
@@ -23,11 +23,11 @@ section {
 }
 
 h2 {
-  color: #6a0dad;
+  color: #bb86fc; /* lighter purple for headings */
 }
 
 a {
-  color: #6a0dad;
+  color: #bb86fc; /* link color */
   text-decoration: none;
 }
 
@@ -38,5 +38,6 @@ a:hover {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #eee;
+  background-color: #111111; /* dark footer */
+  color: #aaaaaa;
 }
